@@ -15,7 +15,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<ShoppingCart />} />
       </Routes>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
     </>
   );
 }

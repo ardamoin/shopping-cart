@@ -1,5 +1,11 @@
+import Page from "../UI/Page";
+
 const Products = () => {
-  return <div>Products</div>;
+  return (
+    <Page>
+      <div>Products</div>
+    </Page>
+  );
 };
 
 export default Products;

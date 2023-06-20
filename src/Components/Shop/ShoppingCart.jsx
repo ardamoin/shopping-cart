@@ -1,5 +1,11 @@
+import Page from "../UI/Page";
+
 const ShoppingCart = () => {
-  return <div className="bg-red-700">ShoppingCart</div>;
+  return (
+    <Page>
+      <div>ShoppingCart</div>
+    </Page>
+  );
 };
 
 export default ShoppingCart;
