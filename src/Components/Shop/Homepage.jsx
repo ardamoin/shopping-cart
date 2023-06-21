@@ -4,7 +4,7 @@ import hasbikMain from "../../Assets/hasbulla_main.jpg";
 
 const Homepage = () => {
   return (
-    <Page className="gap-[100px] min-w-[600px]">
+    <Page className="flex items-center justify-center gap-[100px] min-w-[600px]">
       <div className="flex flex-col items-start gap-5">
         <h1 className="font-barlow text-4xl font-semibold text-primary">
           For all things Hasbulla
