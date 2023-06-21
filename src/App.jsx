@@ -1,4 +1,5 @@
 import Header from "./Components/Layout/Header";
+import Footer from "./Components/Layout/Footer";
 import { Routes, Route } from "react-router-dom";
 import Products from "./Components/Shop/Products";
 import Contact from "./Components/Shop/Contact";
@@ -15,6 +16,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<ShoppingCart />} />
       </Routes>
+      <Footer />
     </>
   );
 }
