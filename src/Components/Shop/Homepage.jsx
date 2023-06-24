@@ -19,7 +19,7 @@ const Homepage = () => {
           Shop Now
         </Link>
       </div>
-      <img src={hasbikMain} alt="Hasbulla homepage img" className="h-3/4 rounded-full"></img>
+      <img src={hasbikMain} alt="Hasbulla homepage img" className="h-[600px] rounded-full"></img>
     </Page>
   );
 };
