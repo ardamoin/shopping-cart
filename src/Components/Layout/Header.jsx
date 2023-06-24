@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="flex min-w-[650px] shrink-0 items-center gap-5 bg-secondary px-3 py-5">
-      <h1 className="ml-5 mr-auto font-barlow text-4xl font-bold text-primary">
+      <Link to="/" className="ml-5 mr-auto font-barlow text-4xl font-bold text-primary">
         Hasbulla Store
-      </h1>
+      </Link>
       <Link to="/" className="font-montserrat hover:text-primary">
         Homepage
       </Link>
