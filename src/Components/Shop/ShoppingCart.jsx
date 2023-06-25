@@ -2,6 +2,7 @@ import CartContext from "../../context/cart-context";
 import Page from "../UI/Page";
 import { useContext } from "react";
 import CartItem from "./CartItem";
+import Checkout from "./Checkout";
 
 const ShoppingCart = () => {
   const { shoppingCart } = useContext(CartContext);
@@ -23,6 +24,7 @@ const ShoppingCart = () => {
           }
         })}
       </ul>
+      <Checkout/>
     </Page>
   );
 };
